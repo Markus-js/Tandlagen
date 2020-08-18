@@ -9,9 +9,12 @@ html, body{
     box-sizing: border-box;
   }
 
-  ul
-  {
-      font-family: Arial, Verdana;
+
+nav {
+    margin-left: 18%;
+}
+
+  ul {
       margin: 0;
       padding: 0;
       list-style: none;
@@ -37,7 +40,7 @@ html, body{
       color: #ffffff;
       font-size: 20px;
       border-top: 1px solid #ffffff;
-      padding: 5px 15px 5px 15px;
+      padding: 10px 50px 10px 50px;
       background: #2C5463;
       white-space: nowrap;
   }
