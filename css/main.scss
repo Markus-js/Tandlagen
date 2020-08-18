@@ -10,8 +10,35 @@ html, body{
   }
 
 .logo {
-    margin-left: 17.5%;
+    margin-left: 18%;
 }
+
+.tele {
+    width: 350px;
+    height: 100px;
+    border-radius: 25px;
+    position: absolute;
+    background-color: #adaaaa;
+    right: 18.7%;
+    top: 4%;
+
+   > p {
+      text-align: right;  
+      margin-right: 12%;
+      margin-top: 10%;
+      font-size: 18px;
+      line-height: 1.2;
+    }
+
+    .tele-logo {
+        position: absolute;
+        top: 4%;
+        right: 22%;
+    }
+
+}
+
+
 
 nav {
     margin-left: 18%;
