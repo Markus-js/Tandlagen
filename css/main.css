@@ -10,6 +10,10 @@ html, body {
           box-sizing: border-box;
 }
 
+.logo {
+  margin-left: 17.5%;
+}
+
 nav {
   margin-left: 18%;
 }
