@@ -33,10 +33,6 @@ html, body {
   line-height: 1.2;
 }
 
-.tele .konst a {
-  cursor: pointer;
-}
-
 .kont {
   position: absolute;
   border-radius: 25px;
@@ -60,13 +56,14 @@ html, body {
 }
 
 .tele-logo img {
-  width: 30%;
+  width: 40%;
 }
 
 .tele-logo {
   position: absolute;
-  top: 4.7%;
-  right: 21%;
+  width: 200px;
+  top: 5%;
+  right: 25.5%;
   z-index: 11;
 }
 
