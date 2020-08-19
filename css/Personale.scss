@@ -157,6 +157,7 @@ nav {
     margin-top: 5%;
 }
 
+    /* Grid */
 
 .per-grid {
     display: grid;
@@ -168,7 +169,7 @@ nav {
     grid-column-gap: 100px;
     margin-top: 2%;
     margin-left: 11.3%;
-    margin-right: 11.5%;
+    margin-right: 11%;
     padding-top: 4%;
     padding-bottom: 4%;
     justify-content: center;
@@ -218,4 +219,46 @@ nav {
 hr {
     width: 350px;
     color: #2C5463;
+}
+
+
+    /* Footer */
+
+.footer {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-areas: 
+    "item-a, item-b, item-c";
+    grid-column-gap: 200px;
+    justify-content: center;
+    background-color: #2C5463;
+    margin-top: 7%;
+    color: #ffffff;
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .item-a {
+        margin-top: 3%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .item-b {
+        margin-top: 3%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .item-c {
+        margin-top: 3%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }

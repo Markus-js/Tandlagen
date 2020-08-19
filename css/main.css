@@ -144,4 +144,48 @@ li:hover a {
 li:hover li a:hover {
   background: #95A9B1;
 }
+
+/* Footer */
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 200px;
+      grid-template-rows: 200px;
+  -ms-grid-columns: 350px 350px 350px;
+      grid-template-columns: 350px 350px 350px;
+      grid-template-areas: "item-a, item-b, item-c";
+  grid-column-gap: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2C5463;
+  margin-top: 7%;
+  color: #ffffff;
+}
+
+.footer h3 {
+  font-size: 25px;
+}
+
+.footer p {
+  font-size: 18px;
+}
+
+.footer .item-a {
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer .item-b {
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer .item-c {
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+}
 /*# sourceMappingURL=main.css.map */
