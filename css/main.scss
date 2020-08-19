@@ -9,6 +9,7 @@ html, body{
     box-sizing: border-box;
   }
 
+
 .logo {
     margin-left: 12%;
     margin-bottom: 0.3%;
@@ -153,3 +154,24 @@ nav {
   {
       background: #95A9B1;
   }
+
+  header div {
+    margin: 0 0 0 225px;
+}
+
+
+header img {
+    margin-top: 20px;
+    height: 730px;
+    width: 87.3%;
+}
+
+.section-1 {
+    margin-top: 20px;
+    height: 20vh;
+    text-align: center;
+}
+
+.section-1 div{
+    display: inline;
+}
