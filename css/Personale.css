@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p-content h1 {
+  color: #2C5463;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.per-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 350px;
+      grid-template-rows: 350px;
+  -ms-grid-columns: 350px 350px 350px;
+      grid-template-columns: 350px 350px 350px;
+      grid-template-areas: "item1, item2, item3";
+  grid-column-gap: 100px;
+  margin-top: 2%;
+  margin-left: 12.3%;
+  margin-right: 11.5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2C5463;
+}
+
+.per-grid h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.per-grid p {
+  margin-top: -4%;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.per-grid .item1 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.per-grid .item1 img {
+  border-radius: 50%;
+}
+
+.per-grid .item2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.per-grid .item2 img {
+  border-radius: 50%;
+}
+
+.per-grid .item3 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.per-grid .item3 img {
+  border-radius: 50%;
+}
+
+hr {
+  width: 350px;
+  color: #2C5463;
+}
+/*# sourceMappingURL=Personale.css.map */
