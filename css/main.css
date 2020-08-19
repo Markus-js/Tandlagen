@@ -55,6 +55,10 @@ html, body {
   cursor: pointer;
 }
 
+.bestil .bestil:hover {
+  background: white;
+}
+
 .tele-logo img {
   width: 40%;
 }
