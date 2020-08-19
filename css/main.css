@@ -12,6 +12,11 @@ html, body {
 
 .logo {
   margin-left: 18%;
+  z-index: 11;
+}
+
+.logo .logo img {
+  z-index: 11;
 }
 
 .tele {
