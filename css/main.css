@@ -50,6 +50,10 @@ html, body {
   cursor: pointer;
 }
 
+.kont a {
+  text-decoration: none;
+}
+
 .bestil {
   position: absolute;
   border-radius: 25px;
@@ -63,6 +67,10 @@ html, body {
 
 .bestil .bestil:hover {
   background: white;
+}
+
+.bestil a {
+  text-decoration: none;
 }
 
 .tele-logo img {

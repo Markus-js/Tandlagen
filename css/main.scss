@@ -49,6 +49,10 @@ html, body{
     top: 12%;
     right: 2%;
     cursor: pointer;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .bestil {
@@ -63,6 +67,10 @@ html, body{
 
     .bestil:hover {
         background: white;
+    }
+
+    a {
+        text-decoration: none;
     }
 }
 
