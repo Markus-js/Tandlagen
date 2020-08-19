@@ -3,6 +3,140 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.logo {
+  margin-left: 11%;
+  margin-bottom: 0.3%;
+  z-index: 11;
+}
+
+.logo .logo img {
+  z-index: 11;
+}
+
+.tele {
+  width: 350px;
+  height: 100px;
+  border-radius: 25px;
+  position: absolute;
+  background-color: #2C5463;
+  right: 11.7%;
+  top: 2%;
+  z-index: 10;
+}
+
+.tele > p {
+  text-align: center;
+  margin-left: 0.5%;
+  margin-top: 9%;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.kont {
+  position: absolute;
+  border-radius: 25px;
+  background-color: #95A9B1;
+  width: 90px;
+  height: 30px;
+  top: 12%;
+  right: 2%;
+  cursor: pointer;
+}
+
+.kont a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.bestil {
+  position: absolute;
+  border-radius: 25px;
+  background-color: #95A9B1;
+  width: 90px;
+  height: 30px;
+  top: 55%;
+  right: 2%;
+  cursor: pointer;
+}
+
+.bestil .bestil:hover {
+  background: white;
+}
+
+.bestil a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.tele-logo img {
+  width: 40%;
+}
+
+.tele-logo {
+  position: absolute;
+  width: 200px;
+  top: 3%;
+  right: 18.8%;
+  z-index: 11;
+}
+
+nav {
+  margin-left: 11%;
+  margin-top: -1%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+li ul {
+  display: none;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  border-top: 1px solid #ffffff;
+  padding: 10px 70px 10px 79px;
+  background: #2C5463;
+  white-space: nowrap;
+}
+
+ul li a:hover {
+  background: #617F8A;
+}
+
+li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li {
+  float: none;
+  font-size: 11px;
+}
+
+li:hover a {
+  background: #617F8A;
+}
+
+li:hover li a:hover {
+  background: #95A9B1;
+}
+
 .p-content h1 {
   color: #2C5463;
   text-align: center;
@@ -19,7 +153,7 @@ body {
       grid-template-areas: "item1, item2, item3";
   grid-column-gap: 100px;
   margin-top: 2%;
-  margin-left: 12.3%;
+  margin-left: 11.3%;
   margin-right: 11.5%;
   padding-top: 4%;
   padding-bottom: 4%;
