@@ -8,10 +8,11 @@ html, body {
   scroll-behavior: smooth;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
 }
 
 .logo {
-  margin-left: 12%;
+  margin-left: 11%;
   margin-bottom: 0.3%;
   z-index: 11;
 }
@@ -27,7 +28,7 @@ html, body {
   position: absolute;
   background-color: #2C5463;
   right: 11.7%;
-  top: 3%;
+  top: 2%;
   z-index: 10;
 }
 
@@ -85,13 +86,13 @@ html, body {
 .tele-logo {
   position: absolute;
   width: 200px;
-  top: 4%;
+  top: 3%;
   right: 18.8%;
   z-index: 11;
 }
 
 nav {
-  margin-left: 12%;
+  margin-left: 11%;
   margin-top: -1%;
 }
 
@@ -117,7 +118,7 @@ ul li a {
   color: #ffffff;
   font-size: 20px;
   border-top: 1px solid #ffffff;
-  padding: 10px 70px 10px 70px;
+  padding: 10px 70px 10px 77px;
   background: #2C5463;
   white-space: nowrap;
 }
