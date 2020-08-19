@@ -11,7 +11,13 @@ html, body {
 }
 
 .logo {
-  margin-left: 18%;
+  margin-left: 12%;
+  margin-bottom: 0.3%;
+  z-index: 11;
+}
+
+.logo .logo img {
+  z-index: 11;
 }
 
 .tele {
@@ -20,14 +26,14 @@ html, body {
   border-radius: 25px;
   position: absolute;
   background-color: #617F8A;
-  right: 18.7%;
-  top: 4%;
+  right: 11.7%;
+  top: 3%;
   z-index: 10;
 }
 
 .tele > p {
   text-align: center;
-  margin-left: 1%;
+  margin-left: 0.5%;
   margin-top: 9%;
   font-size: 18px;
   line-height: 1.2;
@@ -55,6 +61,10 @@ html, body {
   cursor: pointer;
 }
 
+.bestil .bestil:hover {
+  background: white;
+}
+
 .tele-logo img {
   width: 40%;
 }
@@ -62,13 +72,14 @@ html, body {
 .tele-logo {
   position: absolute;
   width: 200px;
-  top: 5%;
-  right: 25.5%;
+  top: 4%;
+  right: 18.8%;
   z-index: 11;
 }
 
 nav {
-  margin-left: 18%;
+  margin-left: 12%;
+  margin-top: -1%;
 }
 
 ul {
@@ -93,7 +104,7 @@ ul li a {
   color: #ffffff;
   font-size: 20px;
   border-top: 1px solid #ffffff;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 70px 10px 70px;
   background: #2C5463;
   white-space: nowrap;
 }
